@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Weather App</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/1f14436bd6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <div class="container background">
+      <div class="row">
+        <div class="col-12 city-name"></div>
+        <div class="col-12 hour"></div>
+        <div class="col-12 weather-condition"></div>
+        <div class="col-5">
+          <span class="current-day"></span>
+          <span class="current-temperature">
+            <span id="temp"></span>
+            <small><a class="celsius" href="#">°C</a></small>
+            <small><a class="fahrenheit" href="#">°F</a></small>
+          </span>
+          <span class="wind">wind:</span>
+          <span class="humidity">humidity:</span>
+          <span class="precipitation">precipitation:</span>
+        </div>
+        <div class="col-7">
+          <i class="fas fa-circle sun-icon"></i>
+        </div>
+        <form>
+          <input
+            id="cities"
+            type="text"
+            placeholder="type your city"
+            autofocus="on"
+            class="border-0"
+          />
+          <input type="submit" value="🔍" class="border-0" />
+          <button id="current-location">🌐</button>
+        </form>
+        <div class="col daily-temperature">TUE <br />17°</div>
+        <div class="col daily-temperature">WED <br />20°</div>
+        <div class="col daily-temperature">THU <br />21°</div>
+        <div class="col daily-temperature">FRI <br />22°</div>
+        <div class="col daily-temperature">SAT <br />24°</div>
+        <div class="col daily-temperature">SUN <br />25°</div>
+      </div>
+    </div>
+    <script src="src/javascript.js"></script>
+  </body>
+</html>

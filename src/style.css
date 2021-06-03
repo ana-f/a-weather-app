@@ -1,0 +1,113 @@
+body {
+  font-family: "Baloo 2", Arial, Helvetica, sans-serif;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+form {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.background {
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+  border-radius: 10px 10px;
+  padding: 30px 30px;
+}
+
+.city-name {
+  font-size: 40px;
+  letter-spacing: -2px;
+  line-height: 50px;
+  text-align: center;
+  color: #47555e;
+}
+
+.hour {
+  font-size: 15px;
+  text-align: center;
+  color: #47555e;
+}
+
+.weather-condition {
+  font-size: 25px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #47555e;
+}
+
+.current-day {
+  display: block;
+  font-size: 15px;
+  position: relative;
+  left: 15px;
+  color: #47555e;
+}
+
+.current-temperature {
+  display: block;
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #47555e;
+  position: relative;
+  left: 15px;
+  top: -15px;
+}
+
+.celsius {
+  color: #47555e;
+  text-decoration: none;
+}
+
+.fahrenheit {
+  color: #47555e;
+  text-decoration: none;
+}
+
+.wind {
+  display: block;
+  font-size: 13px;
+  color: #47555e;
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+
+.humidity {
+  display: block;
+  font-size: 13px;
+  color: #47555e;
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+
+.precipitation {
+  display: block;
+  font-size: 13px;
+  color: #47555e;
+  position: relative;
+  left: 15px;
+}
+
+.sun-icon {
+  font-size: 160px;
+  color: #fff1c1;
+  position: relative;
+  right: 5px;
+}
+
+.daily-temperature {
+  font-size: 15px;
+  color: #47555e;
+  text-align: center;
+  padding: 0;
+}
