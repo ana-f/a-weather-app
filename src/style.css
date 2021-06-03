@@ -111,3 +111,9 @@ form {
   text-align: center;
   padding: 0;
 }
+
+.code {
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
